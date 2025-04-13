@@ -17,7 +17,7 @@ export default defineConfig({
   server: {
     host: '0.0.0.0', // Bind to all network interfaces
     port: process.env.PORT || 5173, // Use Render's assigned port or default to 5173
-    allowedHosts: ['recler--project.onrender.com'],
+    allowedHosts: ['https://recler1-backend.onrender.com'],
   }
 });
 
