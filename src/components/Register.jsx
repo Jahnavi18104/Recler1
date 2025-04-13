@@ -148,7 +148,7 @@ const Register = () => {
     setMessage("");
 
     try {
-      const response = await fetch("https://recler-backend-3.onrender.com/register", {
+      const response = await fetch("https://recler1-backend.onrender.com/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
