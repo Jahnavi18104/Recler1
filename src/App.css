@@ -1,0 +1,378 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+
+  background-color: white;
+  color: white;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-buttons {
+  margin-top: 10px;
+}
+
+.auth-buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+.dataset-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.dataset-card {
+  width: 250px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.dataset-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* html, body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh; 
+  overflow-y: auto; 
+}
+
+.header {
+  text-align: center;
+  background-color: white;
+  color: black; 
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-buttons {
+  margin-top: 10px;
+}
+
+.auth-buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+.dataset-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.dataset-card {
+  width: 250px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.dataset-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  gap: 10px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh; /* Ensures full viewport height */
+  overflow: hidden; /* Prevents unnecessary scrolling on body */
+  display: flex;
+  flex-direction: column;
+
+    overflow-x: hidden;
+}
+
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white; /* Adjust as needed */
+  z-index: 1000;
+  text-align: center;
+  color: black; 
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Bar */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+  margin-top: 10px;
+}
+
+.auth-buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Scrollable Content Area */
+.content-container {
+  margin-top: 60px; /* Adjust based on header height */
+  margin-bottom: 60px; /* Prevent content from overlapping footer */
+  flex-grow: 1;
+  overflow-y: auto; /* Allows vertical scrolling */
+  padding: 20px;
+}
+
+/* Dataset Grid */
+.dataset-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Dataset Card */
+.dataset-card {
+  width: 250px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.dataset-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Category Buttons */
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  gap: 50px;
+   /* Debugging */
+  padding: 25px;
+  width: 100%;
+}
+
+
+/* Footer */
+/* Footer */
+.footer {
+  position: fixed; /* Keeps the footer at the bottom */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: transparent; /* Ensures it blends with the background */
+  text-align: center;
+  font-size: 8px; /* Adjust font size for better fit */
+  height: 10px; /* Keep it small */
+  line-height: 10px; /* Ensures text is vertically centered */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Ensure no external margins */
+  box-shadow: none !important; /* Force-remove any shadow */
+  border: none !important; /* Ensure no borders */
+}
+
+
+
+
+
