@@ -83,7 +83,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://recler1-backend.onrender.com";
 
 const UploadForm = ({ datasetId }) => {
   const [file, setFile] = useState(null);
